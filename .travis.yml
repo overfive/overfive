@@ -15,10 +15,10 @@ script:
   - hexo generate --deploy --quiet
 branches:
   only:
-  - master
+    - master
 cache:
   directories:
-  - node_modules
+    - node_modules
 env:
   global:
     secure: FMrAUTrjG7OyIPLqc3jbbzGqC0IDBAk3Ibrw5s38SPdj8MGuJ1t4E18BDf5r5I9YL8PZBNoEnrCRIb5QcDQPvKKjwgWcJJG5HkntiQLrRoCR0IbVYlc0Pgm6K21oikndR4c/GYioEsQPJc88788+juQo9kZcFhMOzsIvldNTD0QEJqXqGAejmB75T8gcyj7wfR8TNUK6IRTlinsmqKgcjRdDCGhwKWdfOB/Wnes6v73MeNuBusN3IuzmLpGdkrPIaOQo7AgiH44aDxbpVXJUg91k91mkW5gIXk9V4qtl0xVQWVN0PH5dJMNmLCvQrIfoN0RCdDaEAzdXPLH8Y9zhmDVhelxKhy0jNxEQezvN22GJzJ2aSJb6aTZF93Zf3lHKJm0nXW1442bG67gZ/dbgQQ1qtnjTqEUSnN94SoDTy2kf0AxaZrrAWuS62nxIfbgP0psLBEhLbWfJAnXnhKmFSZ9nrDvB0XXT0Rx7UEk8n3cczY6gKE7FsrYLIekwiFP4pHaACfUGmRKM2DEITuPRiC+jWEfasdUIk3cPSiQyhkGDAmHUXEAhGvR1eY7bb5jTmYiWkcjZCS8rX3sNmK8oFf9K2NjZn9sjsdMOCSx4aeXDhFAetgpfbo2sFctjKVxR0sOEIaMDV0TbQFjk83MwNB8jHI9QJaiHgKmxT5d60o4=
