@@ -7,6 +7,7 @@ jobs:
       name: Build
       runs-on: ubuntu-latest
       steps:
+      - uses: actions/checkout@v1
       - name: Get submodule
         run: |
           git submodule update --init
