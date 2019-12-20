@@ -11,11 +11,6 @@ jobs:
       - name: Get submodule
         run: |
           git submodule update --init
-      - name: Cache node modules
-        uses: actions/cache@v1
-        with:
-          path: node_modules
-          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
       - name: Clean
         uses: heowc/action-hexo@master
         with:
@@ -31,3 +26,8 @@ jobs:
           NAME: qiwihui
         with:
           args: deploy
+      - name: Cache node modules
+        uses: actions/cache@v1
+        with:
+          path: node_modules
+          key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
